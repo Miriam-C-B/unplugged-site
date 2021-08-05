@@ -91,6 +91,7 @@ textarea {
     }
     
     body {
+        color: #e2e3ed;
         font-family: 'Open Sans', sans-serif;
         font-size: 1em;
         text-align: left;
@@ -109,12 +110,14 @@ textarea {
     h2 {
         font-family: 'Poppins', sans-serif;
         font-size: 1.875em;
+        font-weight: 500;
     }
     
     h3, 
-    h4 {
+    h4 { 
         font-family: 'Poppins', sans-serif;
         font-size: 1.125em;
+        font-weight: 500;
         margin: 20px 0;
     }
     
@@ -147,6 +150,7 @@ textarea {
   header,
   footer {
     align-items: center;
+    background-color: #202322;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -168,6 +172,7 @@ textarea {
   }
 
 .header-divider {
+    background: #3a3a3a;
     height: 1px;
     margin: 10px 0 20px 0;  
     width: 100%;
@@ -177,7 +182,10 @@ textarea {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
+    font-size: 1.125em;
+    font-weight: 700;
     justify-content: space-around;
+    text-transform: uppercase;
     width: 60%;
   }
 
@@ -188,7 +196,7 @@ textarea {
   }
 
   header nav ul li {
-
+    font-size: 1.125em;
   }
 
 
@@ -196,6 +204,11 @@ textarea {
 
   footer {
     flex-direction: column;
+    text-align: center;
+  }
+
+  footer p {
+    margin: 0;
   }
 
   footer .content-wrapper {
@@ -234,20 +247,51 @@ textarea {
 
   /*----------MOBILE STYLES HOMEPAGE -------------------*/
   .hero-area {
+    background-image: ;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500; 
+    line-height: 1.2;
   }
 
   aside {
     align-items: center;
+    background-color: #517157;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+  }
+
+  aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   .newsletter {
@@ -263,6 +307,7 @@ textarea {
   }
 
   .features {
+    background-image: ;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -286,6 +331,7 @@ textarea {
 
   .features p {
     margin:0;
+    text-align: center;
   }
 
   .fontawesome-icon {
@@ -297,12 +343,14 @@ textarea {
   }
 
   .reviews {
+    background-color: #294139;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
 
   .reviews h2 {
+    line-height: 1em;
     margin-bottom: 40px;
   }
 
@@ -319,6 +367,7 @@ textarea {
   /*----------MOBILE STYLES ABOUT -------------------*/
   .mission {
     align-items: center;
+    background-color: #517157;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -334,6 +383,7 @@ textarea {
 
   .contact-section {
     align-items: center;
+    background-color: #294139;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -347,6 +397,7 @@ textarea {
   /*----------MOBILE STYLES FAQ -------------------*/
   .faq {
     align-items: center;
+    background-color: #517157;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -361,6 +412,7 @@ textarea {
   }
 
   .faq h2 {
+    line-height: 1em;
     margin-bottom: 40px;
   }
   
@@ -368,11 +420,9 @@ textarea {
     margin-bottom: 50px;
   }
   
-
-
-
-
-
+  .faq-content h4 {
+    line-height: 1.333;
+  }
 
 
 
@@ -469,128 +519,176 @@ textarea {
 @media only screen and (min-width: 768px) {
   /* TABLET STYLES HERE*/
   /*general styles*/
-.content-wrapper {
-    max-width: 640px;
-    margin: 100px 0;
-}
- /* Header */
- 
- header {
-    justify-content: space-around;
-    padding: 33px 0;
-}
+    .content-wrapper {
+        max-width: 640px;
+        margin: 100px 0;
+    }
 
-header .content-wrapper {
-    justify-content: space-between;
-    width: 100%;
-}
+    h2 {
+      font-size: 2.25em;
+      line-height: 1.333;
+    }
 
-header nav {
-    width: 20%;
-}
+    h3 {
+      font-size: 1.5em;
+      line-height: 1.25;
+    }
 
-header nav ul {
-    justify-content: space-between;
-}
+    /* Header */
+    
+    header {
+        justify-content: space-around;
+        padding: 33px 0;
+    }
 
-.header-divider {
-    display: none;
-}
+    header .content-wrapper {
+        justify-content: space-between;
+        width: 100%;
+    }
 
-/* Hero Area */
+    header nav {
+        width: 20%;
+    }
 
-/* Aside */
-aside .content-wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  margin: 50px 0;
-}
+    header nav ul {
+        justify-content: space-between;
+    }
 
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {        
-    width: 40%;         
-    margin: 0;
-}
+    .header-divider {
+        display: none;
+    }
 
-/* Features */
+    /* Hero Area */
+    .hero-area h1 {
+      font-size: 3em;
+      line-height: 1;
+      margin: 0;
+    }
 
-.features article {
-  align-items: center;
-  display: flex;
-  flex-basis: 40%;
-  flex-flow: column wrap;
-  justify-content: center;
-}
+    /* Aside */
+    aside .content-wrapper {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin: 50px 0;
+    }
 
-.features .features-item-description {
-    width: 50%;
-}
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {        
+        width: 40%;         
+        margin: 0;
+    }
 
-/* Reviews */
-.reviews article {
-  display: flex;
-  justify-content: space-between;
-}
+    /* Features */
+    .features h2 {
+      margin-bottom: 20px;
+    }
 
-.reviews article div {
-    width: 49%;     
-}
+    .features article {
+      align-items: center;
+      display: flex;
+      flex-basis: 50%;
+      flex-flow: column wrap;
+      justify-content: center;
+    }
 
-/* Footer */
-footer .content-wrapper {
-    width: 65%;
-    margin: 100px 0;
-}
+    .features .features-item-description {
+        width: 62%;
+    }
 
-.footer-content {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
+    /* Reviews */
+    .reviews article {
+      display: flex;
+      justify-content: space-between;
+    }
 
-footer .contact {
-    margin-bottom: 0;
-}
+    .reviews h2 {
+      width: 85%;
+    }
 
-footer .copyright {
-    width: 100%;
-}
+    .reviews article div {
+        width: 49%;     
+    }
 
-/*ABOUT PAGE TABLET*/
-.mission-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 20px
-}
+    .reviews h3 {
+      width: 75%;
+      margin: 0;
+    }
 
-.mission-content p {
-  width: 45%;
-}
+    /* Footer */
+    footer .content-wrapper {
+        width: 65%;
+        margin: 100px 0;
+    }
 
-.contact-section .content-wrapper h2 {
-  width: 80%;
-}
+    .footer-content {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
-.contact-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+    footer .contact {
+        margin-bottom: 0;
+    }
 
-/* FAQ PAGE TABLET */
-.faq .content-wrapper {
-  justify-content: space-between;
-}
+    footer h4 {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
 
-.faq-content {
-  flex-basis: 45%;
-}
+    footer p {
+      line-height: 1.285;
+    }
 
-.faq h2 {
-  width: 100%;
-}
+    footer .copyright {
+        width: 100%;
+    }
+
+    /*ABOUT PAGE TABLET*/
+    .mission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px
+    }
+
+    .mission-content p {
+      width: 45%;
+    }
+
+    .contact-section .content-wrapper h2 {
+      width: 80%;
+    }
+
+    .contact-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .contact-content h4 {
+      font-size: 1.5em;
+    }
+
+    /* FAQ PAGE TABLET */
+    .faq .content-wrapper {
+      justify-content: space-between;
+    }
+
+    .faq-content {
+      flex-basis: 45%;
+    }
+
+    .faq h2 {
+      width: 100%;
+    }
+
+    .faq h4,
+      .faq p {
+          font-size: .875em;
+          line-height: 1.125;
+      }
 
 }
 
@@ -602,9 +700,28 @@ footer .copyright {
   .content-wrapper {
           max-width: 960px;
       }
+    
+  header {
+    padding: 15px 0;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+      font-size: 1.875em;
+  }
+
+  p {
+      font-size: 1.125em;
+      line-height: 1.333;
+  }
 
   /* Hero */
   .hero-area h1 {
+    font-size: 3.75em;
     width: 60%;
   }
 
@@ -618,6 +735,11 @@ footer .copyright {
       width: 30%;
   }
 
+  .form-description p {
+    font-size: 1.125em;
+  }
+
+
   /* Features */
   .features h2 {
     width: 90%;
@@ -628,21 +750,40 @@ footer .copyright {
   }
 
   /* Reviews */ 
+  .reviews h2 {
+    padding-bottom: 50px; 
+  }
+
   .reviews article div {
     width: 42%;
+  }
+
+  footer h4 {
+    font-size: 1.875em;
   }
 
   /*ABOUT DESKTOP*/
   .mission h2,
   .contact-section .content-wrapper h2 {
-        width: 95%;
+      font-size: 3em;  
+      width: 95%;
     }
 
+    .contact-content h4 {
+      font-size: 1.875em;
+    }
 
   /*FAQ DESKTOP*/
   .faq h2 {
+    font-size: 3em;
     width: 100%;
-}
+  }
+
+  .faq h4,
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1;
+  }
 
 }
 
