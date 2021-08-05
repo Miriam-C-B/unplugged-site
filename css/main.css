@@ -127,11 +127,11 @@ textarea {
     }
     
     img {
-    
+        width: 100%;
     }
     
     figure {
-    
+        margin: 0;
     }
     
     address {
@@ -162,6 +162,14 @@ textarea {
   header {
     padding: 15px 0;
   }
+
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
   header .content-wrapper {
     align-items: center;
@@ -247,6 +255,8 @@ textarea {
 
   /*----------MOBILE STYLES HOMEPAGE -------------------*/
   .hero-area {
+    background: url('../img/hero-background.jpg') center no-repeat #333;
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -306,6 +316,8 @@ textarea {
   }
 
   .features {
+    background: url('../img/features-background.jpg') center no-repeat #333;
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -351,6 +363,14 @@ textarea {
     line-height: 1em;
     margin-bottom: 40px;
   }
+
+  .reviews figure {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
   .reviews h3 {
     margin: 20px 0;
@@ -544,6 +564,10 @@ textarea {
         width: 100%;
     }
 
+    header figure {
+      width: 30%;
+    }
+
     header nav {
         width: 20%;
     }
@@ -557,6 +581,10 @@ textarea {
     }
 
     /* Hero Area */
+    .hero-area {
+      min-height: 600px;
+    }
+
     .hero-area h1 {
       font-size: 3em;
       line-height: 1;
@@ -603,7 +631,8 @@ textarea {
     .reviews h2 {
       width: 85%;
     }
-
+    
+    .reviews figure,
     .reviews article div {
         width: 49%;     
     }
