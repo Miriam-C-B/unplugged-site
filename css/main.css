@@ -247,7 +247,6 @@ textarea {
 
   /*----------MOBILE STYLES HOMEPAGE -------------------*/
   .hero-area {
-    background-image: ;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -307,7 +306,6 @@ textarea {
   }
 
   .features {
-    background-image: ;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
