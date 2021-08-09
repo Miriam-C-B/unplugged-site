@@ -100,6 +100,8 @@ textarea {
     ul, 
     ol {
         list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
     
     a {
@@ -111,6 +113,7 @@ textarea {
         font-family: 'Poppins', sans-serif;
         font-size: 1.875em;
         font-weight: 500;
+        margin: 0;
     }
     
     h3, 
@@ -224,16 +227,8 @@ textarea {
     width: 55%;
   }
 
-  footer .footer-content {
-
-  }
-
   footer .contact {
     margin-bottom: 50px;
-  }
-
-  footer .social {
-  
   }
 
   footer .social-icons p {
@@ -268,6 +263,7 @@ textarea {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    min-height: 500px;
   }
 
   h1 {
@@ -311,18 +307,6 @@ textarea {
     text-transform: uppercase;
   }
 
-  .newsletter {
-
-  }
-
-  .form-description {
-    
-  }
-
-  .form {
-
-  }
-
   .features {
     background: url('../img/features-background.jpg') center no-repeat #333;
     background-size: cover;
@@ -357,10 +341,6 @@ textarea {
     margin-bottom: 40px;
   }
 
-  .features-item-description {
-    
-  }
-
   .reviews {
     background-color: #294139;
     display: flex;
@@ -373,21 +353,9 @@ textarea {
     margin-bottom: 40px;
   }
 
-  .reviews figure {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
   .reviews h3 {
     margin: 20px 0;
     width: 55%;
-  }
-
-  .reviews article p {
-
   }
 
 
@@ -398,10 +366,6 @@ textarea {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-  }
-
-  .mission-content {
-
   }
 
   .map figure {
@@ -644,6 +608,10 @@ textarea {
         width: 62%;
     }
 
+    .features i {
+      margin-bottom: 30px;
+    }
+
     /* Reviews */
     .reviews article {
       display: flex;
@@ -670,7 +638,7 @@ textarea {
         margin: 100px 0;
     }
 
-    .footer-content {
+    footer .footer-content {
       align-items: center;
       display: flex;
       flex-direction: row;
@@ -712,7 +680,7 @@ textarea {
     }
 
     .map figure { 
-      padding-bottom: 45%;
+      padding-bottom: 45.5%;
     }
     
     .contact-section .content-wrapper h2 {
@@ -746,7 +714,7 @@ textarea {
       .faq p {
           font-size: .875em;
           line-height: 1.125;
-      }
+    }
 
 }
 
@@ -780,7 +748,7 @@ textarea {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
   /* Aside */
@@ -846,10 +814,6 @@ textarea {
       font-size: 1.125em;
       line-height: 1;
   }
-
-}
-
-
 
 }
 
