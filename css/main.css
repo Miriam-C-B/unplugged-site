@@ -183,7 +183,7 @@ textarea {
   }
 
 .header-divider {
-    background: #3a3a3a;
+    background: #5F679E;
     height: 1px;
     margin: 10px 0 20px 0;  
     width: 100%;
@@ -235,7 +235,7 @@ textarea {
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: #517157;
+    background-color: #5E91AB;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -275,7 +275,7 @@ textarea {
 
   aside {
     align-items: center;
-    background-color: #517157;
+    background-color: #5E91AB;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -288,7 +288,7 @@ textarea {
   input[type=text] {
     box-sizing: border-box;
     width: 100%;
-    color: #2a423a;
+    color: #5F679E;
     font-style: italic;
     padding: 1em;
   }
@@ -297,7 +297,7 @@ textarea {
     width: 100%;
     padding: 20px 0;
     margin-top: 20px;
-    background-color: #2a423a;
+    background-color: #5F679E;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.125em;
@@ -342,7 +342,7 @@ textarea {
   }
 
   .reviews {
-    background-color: #294139;
+    background-color: #5F679E;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -362,7 +362,7 @@ textarea {
   /*----------MOBILE STYLES ABOUT -------------------*/
   .mission {
     align-items: center;
-    background-color: #517157;
+    background-color: #5E91AB;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -387,7 +387,7 @@ textarea {
 
   .contact-section {
     align-items: center;
-    background-color: #294139;
+    background-color: #5F679E;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -401,7 +401,7 @@ textarea {
   /*----------MOBILE STYLES FAQ -------------------*/
   .faq {
     align-items: center;
-    background-color: #517157;
+    background-color: #5E91AB;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
